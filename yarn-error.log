@@ -1,0 +1,108 @@
+Arguments: 
+  /Users/xujiajia/.volta/tools/image/node/16.16.0/bin/node /Users/xujiajia/.volta/tools/image/yarn/1.22.19/bin/yarn.js
+
+PATH: 
+  /Users/xujiajia/.volta/tools/image/yarn/1.22.19/bin:/Users/xujiajia/.volta/tools/image/node/16.16.0/bin:/Users/xujiajia/.volta/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/xujiajia/Library/Android/sdk/emulator:/Users/xujiajia/Library/Android/sdk/tools:/Users/xujiajia/Library/Android/sdk/tools/bin:/Users/xujiajia/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@tarojs%2fcomponents: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/xujiajia/.volta/tools/image/yarn/1.22.19/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at TLSSocket.Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "myApp",
+    "version": "1.0.0",
+    "private": true,
+    "description": "我的第一个小程序",
+    "templateInfo": {
+      "name": "default",
+      "typescript": false,
+      "css": "sass"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "build:qq": "taro build --type qq",
+      "build:jd": "taro build --type jd",
+      "build:quickapp": "taro build --type quickapp",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch",
+      "dev:qq": "npm run build:qq -- --watch",
+      "dev:jd": "npm run build:jd -- --watch",
+      "dev:quickapp": "npm run build:quickapp -- --watch"
+    },
+    "browserslist": [
+      "last 3 versions",
+      "Android >= 4.1",
+      "ios >= 8"
+    ],
+    "author": "",
+    "dependencies": {
+      "@babel/runtime": "^7.7.7",
+      "@tarojs/components": "3.5.6",
+      "@tarojs/helper": "3.5.6",
+      "@tarojs/plugin-platform-weapp": "3.5.6",
+      "@tarojs/plugin-platform-alipay": "3.5.6",
+      "@tarojs/plugin-platform-tt": "3.5.6",
+      "@tarojs/plugin-platform-swan": "3.5.6",
+      "@tarojs/plugin-platform-jd": "3.5.6",
+      "@tarojs/plugin-platform-qq": "3.5.6",
+      "@tarojs/router": "3.5.6",
+      "@tarojs/runtime": "3.5.6",
+      "@tarojs/shared": "3.5.6",
+      "@tarojs/taro": "3.5.6",
+      "@tarojs/taro-h5": "3.5.6",
+      "@tarojs/plugin-framework-react": "3.5.6",
+      "@tarojs/react": "3.5.6",
+      "react-dom": "^18.0.0",
+      "react": "^18.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.0",
+      "@tarojs/cli": "3.5.6",
+      "@types/webpack-env": "^1.13.6",
+      "@types/react": "^18.0.0",
+      "webpack": "5.69.0",
+      "@tarojs/webpack5-runner": "3.5.6",
+      "babel-preset-taro": "3.5.6",
+      "eslint-config-taro": "3.5.6",
+      "eslint": "^8.12.0",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+      "react-refresh": "^0.11.0",
+      "eslint-plugin-react": "^7.8.2",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "stylelint": "^14.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
