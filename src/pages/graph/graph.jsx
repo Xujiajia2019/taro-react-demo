@@ -1,9 +1,8 @@
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
-import { AtButton } from 'taro-ui'
-import './index.scss'
+// import './index.scss'
 
-export default class Index extends Component {
+export default class Graph extends Component {
 
   componentWillMount () { }
 
@@ -18,8 +17,7 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <AtButton type='primary'>记录</AtButton>
-        
+        <Text>图表---数据列表</Text>
       </View>
     )
   }

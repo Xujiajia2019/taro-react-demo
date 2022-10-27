@@ -7,6 +7,9 @@ const config = {
     750: 1,
     828: 1.81 / 2
   },
+  h5: {
+    esnextModules: ['taro-ui']
+  },
   sourceRoot: 'src',
   outputRoot: 'dist',
   plugins: [],
