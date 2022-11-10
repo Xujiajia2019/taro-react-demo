@@ -3,7 +3,7 @@ import { View, CoverView, CoverImage } from '@tarojs/components'
 // import './index.scss'
 
 class customTabBar extends Component {
-
+    
     state = {
         selected: 0,
         color: 'rgba(68, 68, 68, 1)',
